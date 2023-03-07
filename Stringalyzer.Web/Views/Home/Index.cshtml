@@ -1,0 +1,23 @@
+﻿@model StringalyzerViewModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="row">
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <input name="input" type="text" value=""/>
+        <input type="submit" value="ANALYZE"/>
+    </form>
+    <div id="results">
+        <p style="white-space:pre;">
+        @if (Model != null)
+        {
+            Write($"Total Words: {Model.TotalWords}\n");
+            Write($"Total Unique Words: {Model.TotalUniqueWords}\n");
+            foreach (var u in Model.UniqueWordCounts)
+            {
+                Write($"{u.Key} {u.Value}\n");
+            }
+        }
+         </p>
+    </div>
+</div>

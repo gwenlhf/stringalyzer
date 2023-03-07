@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringalyzer", "Stringalyzer\Stringalyzer.csproj", "{A2877B82-38F0-4FD7-976F-E5FA71F99B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringalyzer.Web", "Stringalyzer.Web\Stringalyzer.Web.csproj", "{E42E323C-C6F5-482F-AA37-4D07E55AEFCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2877B82-38F0-4FD7-976F-E5FA71F99B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2877B82-38F0-4FD7-976F-E5FA71F99B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2877B82-38F0-4FD7-976F-E5FA71F99B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2877B82-38F0-4FD7-976F-E5FA71F99B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42E323C-C6F5-482F-AA37-4D07E55AEFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42E323C-C6F5-482F-AA37-4D07E55AEFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42E323C-C6F5-482F-AA37-4D07E55AEFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42E323C-C6F5-482F-AA37-4D07E55AEFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {662550AC-2525-44DA-8212-F42E971D46F0}
+	EndGlobalSection
+EndGlobal
